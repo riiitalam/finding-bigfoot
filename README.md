@@ -38,7 +38,7 @@ wind_speed
 title
 longitude
 
-Total number of row - 5021. Imported data table as cvs file into PostreSQL. Data was checked for duplicate row, white spaces and null values. The 'number' column is the primary key. precip_type has 3298 Null values which is a significant number. Upon checking and understanding this data, Null value most likely mean there is no precipitation, so the precip_type for Null is clear sky. 
+Data table has 26 columns and 5021 rows. Imported data table as cvs file into PostreSQL. Data was checked for duplicate row, white spaces and null values. The 'number' column is the primary key. precip_type has 3298 Null values but upon checking and understanding this data column, Null value for precip_type means there is no precipitation, so the precip_type for Null is clear sky. 'date' column has 976 null values but they contains geographical locations therefore keeping these rows as is. 
 
 Process Data
 
