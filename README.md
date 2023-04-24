@@ -38,11 +38,11 @@ wind_speed
 title
 longitude
 
-Data was checked for duplicate row, white spaces and zero or null values. Special characters was removed from the industry column. Also checked ceo_data_pay_merged_r3000 dataset is inclusive of all data from ceo_data_pay_merged_sp500 since Russell 3000 index include SP500 companies. 3 row with zero values are found and updated accordingly. Avg worker pay is used to update if median value is not found on reliable salary report sites. Data row for Safehold is removed since median worker pay could not be looked up. Reassigned row number since a data entry was removed. Also checked and casted appropriate data types for each column. Checked for outliers and updated two values in worker_median_pay. Added category column- SP500 to identify if the company is an SP500 also.
+Total number of row - 5021. Imported data table as cvs file into PostreSQL. Data was checked for duplicate row, white spaces and null values. The 'number' column is the primary key. precip_type has 3298 Null values which is a significant number. Upon checking and understanding this data, Null value most likely mean there is no precipitation, so the precip_type for Null is clear sky. 
 
 Process Data
 
-DBbrowser for SQLite was used to process the dataset. All SQL codes written for data processing and analysis are documented in the "ceo_worker_pay_2023.sql" file uploaded in this repository. Link: 
+PostgreSQL was used to process the dataset. All SQL codes written for data processing and analysis are documented in the "bigfoot_sightings.sql" file uploaded in this repository. Link: https://github.com/riiitalam/finding-bigfoot/commit/92bbaeadf9b6c6d6000b5a59330db969be2c6b0a
 
 Analyse Data
 
@@ -52,4 +52,5 @@ Share Findings
 
 Result of analysis is presented in the interactive Tableau visualization dashboard at https://public.tableau.com/app/profile/rita.lam/viz/BigfootSightings_16795970192780/Dashboard2
 
-Act Phase Regulations on executive salary should be implemented and workers needs to continue to advocate for fair wages.
+Act Phase 
+Follow the guideline to choose the best day and time then get ready to go on a quest for finding bigfoot!
