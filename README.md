@@ -46,11 +46,11 @@ PostgreSQL was used to process the dataset. All SQL codes written for data proce
 
 Analyse Data
 
-Finalized datasets were imported into Tableau and visualized with various plots to identify trends, patterns and relationships. Compared and identified the industry that has the highest inequlity in salary between CEOs and workers. Explored relationship between worker pay and CEO pay and highlight their enormous difference in logarithmic scale. Identify top 10 companies that offer highest pay to their CEOs and lowest pay to their workers. Pay ratio by industry was also looked at and translated into a unit chart where the number of worker pay is plotted against one CEO's pay. Other executive salary were checked to be also very high in cases where CEOs match their salary closely to their employees' pay.
+Finalized datasets were imported into Tableau and visualized with various plots to identify trends, patterns and relationships. Mapped all sightings on geographic map to identify demographic frequency of bigfoot encounters. Also visualzed the sighting frequency distribution by states and counties. Plotted heatmaps for sighting frequency by season, months and day of month and day of week to find patterns. Graphed each weather variables against sighting frequency to determine the most probable weather conditions bigfoots are out spotted. Summarized patterns and trends into informative guidelines for planning a quest to find bigfoots.
 
 Share Findings
 
 Result of analysis is presented in the interactive Tableau visualization dashboard at https://public.tableau.com/app/profile/rita.lam/viz/BigfootSightings_16795970192780/Dashboard2
 
 Act Phase 
-Follow the guideline to choose the best day and time then get ready to go on a quest for finding bigfoot!
+Follow the guideline to choose the best day and time, then get ready to go on a quest for finding bigfoot!
