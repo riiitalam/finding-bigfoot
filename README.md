@@ -1,5 +1,5 @@
 # finding-bigfoot
-Historical data of bigfoot sightings from year 1869 to 2021
+Historical Data of Bigfoot Sightings from year 1869 to 2021
 
 Objective
 
